@@ -7,6 +7,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import es.proyecto1.spring.mvc.validacionespersonalizadas.CPostalMadrid;
+
 public class Alumno {
 
 	@NotNull
@@ -21,7 +23,8 @@ public class Alumno {
 
 	private String idiomasAlumno;
 	
-	@Pattern(regexp = "[0-9]{5}", message = "Solo 5 valores númericos")
+	//@Pattern(regexp = "[0-9]{5}", message = "Solo 5 valores númericos")
+	@CPostalMadrid
 	private String codigoPostal;
 
 	@Email
