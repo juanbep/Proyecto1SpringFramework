@@ -8,7 +8,8 @@
 </head>
 <body>
 
-El alumno con nombre: <strong>${elAlumno.nombre}</strong> y apellido: <strong>${elAlumno.apellido}</strong> se ha registrado con éxito
+El alumno con nombre: <strong>${elAlumno.nombre}</strong> y apellido: <strong>${elAlumno.apellido}</strong> y edad: <strong>${elAlumno.edad }</strong> 
+, E-mail: <strong>${elAlumno.email }</strong> y C-postal: <strong>${elAlumno.codigoPostal }</strong> se ha registrado con éxito
 
 <br/>
 

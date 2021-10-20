@@ -13,10 +13,27 @@
 	<form:form action = "procesarFormulario" modelAttribute = "elAlumno">
 	
 	Nombre : <form:input path="nombre"/>
+	<form:errors    path ="nombre" style = "color:red" />
 	
 	<br/><br/><br/>
 	
 	Apellido : <form:input path="apellido"/>
+	
+	<br/><br/><br/>
+	
+	Edad : <form:input path="edad"/>
+	<form:errors   path = "edad" style = "color:red"       />
+	
+	<br/><br/><br/>
+	
+	E-mail : <form:input path="email"/>
+	<form:errors   path = "email" style = "color:red"       />
+	
+	<br/><br/><br/>
+	
+	
+	C-postal : <form:input path="codigoPostal"/>
+	<form:errors   path = "codigoPostal" style = "color:red"       />
 	
 	<br/><br/><br/>
 	
